@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+org.eclipse.php.debug.core.xdebugDebuggerSettingsProvider=<settings><proxyEnable>false</proxyEnable><clientPort>9000</clientPort><ownerId>php-exe-c4113eb6-7b1e-4023-b81b-b42d170c2d28</ownerId><proxyIdeKey>ECLIPSE_DBGP_xxx</proxyIdeKey><proxyAddress></proxyAddress></settings>\u0005<settings><proxyEnable>false</proxyEnable><clientPort>9000</clientPort><ownerId>php-server-751405d2-66af-4064-87f2-7847682ebefa</ownerId><proxyIdeKey>ECLIPSE_DBGP_xxx</proxyIdeKey><proxyAddress></proxyAddress></settings>\u0005<settings><proxyEnable>false</proxyEnable><clientPort>9000</clientPort><ownerId>php-server-51180c6c-dd95-4bec-b7c7-bba554b6f93a</ownerId><proxyIdeKey>ECLIPSE_DBGP_xxx</proxyIdeKey><proxyAddress></proxyAddress></settings>
+org.eclipse.php.debug.core.zendDebuggerSettingsProvider=<settings><clientPort>10137</clientPort><ownerId>php-exe-c4113eb6-7b1e-4023-b81b-b42d170c2d28</ownerId></settings>\u0005<settings><clientIp>169.254.81.239,192.168.0.2,127.0.0.1</clientIp><clientPort>10137</clientPort><ownerId>php-server-751405d2-66af-4064-87f2-7847682ebefa</ownerId><responseTimeout>60000</responseTimeout></settings>\u0005<settings><clientIp>169.254.81.239,192.168.0.2,127.0.0.1</clientIp><clientPort>10137</clientPort><ownerId>php-server-51180c6c-dd95-4bec-b7c7-bba554b6f93a</ownerId><responseTimeout>60000</responseTimeout></settings>
+org.eclipse.php.debug.coreinstalledPHPDebuggers=org.eclipse.php.debug.core.xdebugDebugger
+org.eclipse.php.debug.coreinstalledPHPDefaults=org.eclipse.php.debug.core.xdebugDebugger\=PHP 5.3.1 (CLI)
+org.eclipse.php.debug.coreinstalledPHPInis=C\:\\Eclipse\\4.5_Mars\\PHP\\pleiades\\xampp\\php\\php.ini
+org.eclipse.php.debug.coreinstalledPHPLoadIniDefaults=false
+org.eclipse.php.debug.coreinstalledPHPLocations=C\:\\Eclipse\\4.5_Mars\\PHP\\pleiades\\xampp\\php\\php.exe
+org.eclipse.php.debug.coreinstalledPHPNames=PHP 5.3.1 (CLI)
+org.eclipse.php.debug.coreinstalledPHPUniqueIds=php-exe-c4113eb6-7b1e-4023-b81b-b42d170c2d28
+org.eclipse.php.debug.corephp_debugger_id=org.eclipse.php.debug.core.xdebugDebugger
+org.eclipse.php.debug.corephp_versions=null
