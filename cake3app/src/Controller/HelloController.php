@@ -25,5 +25,4 @@ class HelloController extends AppController
         echo 'これは、index以外の表示です。';
     }
 }
-
 ?>
