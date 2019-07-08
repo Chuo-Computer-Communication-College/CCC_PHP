@@ -14,7 +14,7 @@ class HelloController extends AppController
 
         // フォワード
         // $this->setAction("other");
-        
+
         // リダイレクト
         // $this->redirect("./other");
         $this->redirect("https://www.yahoo.co.jp/");
