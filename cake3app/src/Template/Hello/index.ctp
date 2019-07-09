@@ -13,5 +13,6 @@
     <p>
       こんにちは！これは、CakePHPのサンプルです。
     </p>
+    <?= date('Y/m/d', time()) ?>
   </body>
 </html>
