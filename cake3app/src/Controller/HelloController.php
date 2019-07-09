@@ -9,7 +9,7 @@ class HelloController extends AppController
 
     public function index()
     {
-        $this->viewBuilder()->autoLayout(false);
+        
     }
 }
 ?>
