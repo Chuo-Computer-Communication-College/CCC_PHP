@@ -16,13 +16,13 @@
   <body>
     <div id="container">
       <div id="header">
-        ** Header **
+        <?= $this->element('Hello\header', ['msg'=>$msg]) ?>
       </div>
       <div id="content">
         <?= $this->fetch('content'); ?>
       </div>
       <div id="footer">
-        ** This is test. **
+        <?= $this->element($footer) ?>
       </div>
     </div>
   </body>
