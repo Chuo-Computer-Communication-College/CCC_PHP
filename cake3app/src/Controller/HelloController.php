@@ -5,18 +5,32 @@ class HelloController extends AppController
 {
     public function initialize()
     {
-        $this->name = 'Hello';
-        $this->viewBuilder()->autoLayout(true);
         $this->viewBuilder()->layout('Hello');
+        
+        $this->set('msg', 'Hello/index');
+        $this->set('footer', 'Hello\footer2');
     }
 
     public function index()
     {
-        $this->set('msg', 'ヘッダーエレメント！！');
+    }
 
-        $n = rand(1, 2);
+    public function sendForm()
+    {
+        $str = $this->request->query['text1'];
 
-        $this->set('footer', 'Hello\footer'.$n);
+        $result = "";
+
+        if ($str != "")
+        {
+            $result = "Your Type: ".$str;
+        }
+        else
+        {
+            $result = "Empty...";
+        }
+
+        $this->set("result", $result);
     }
 }
 ?>
