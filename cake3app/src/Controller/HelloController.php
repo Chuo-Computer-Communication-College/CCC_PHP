@@ -30,7 +30,8 @@ class HelloController extends AppController
             $result = "Empty...";
         }
 
-        $this->set("result", htmlspecialchars($result));
+        // $this->set("result", htmlspecialchars($result));
+        $this->set("result", h($result));
     }
 }
 ?>
