@@ -5,6 +5,8 @@
   フォームの送信
 </p>
 <form method="get" action="./sendForm">
+  <input type="hidden" name="check1" value="off">
+  <input type="hidden" name="radio1" value="off">
   <input type="checkbox" id="c1" name="check1">
   <label for="c1">
     チェック
