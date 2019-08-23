@@ -17,21 +17,14 @@ class HelloController extends AppController
 
     public function sendForm()
     {
-        $str = $this->request->query['text1'];
+        $result = "※送信された情報<br>";
 
-        $result = "";
-
-        if ($str != "")
+        foreach ($this->request->query as $key => $value)
         {
-            $result = "Your Type: ".$str;
-        }
-        else
-        {
-            $result = "Empty...";
+            $result .= $key." => ".$value."<br>";
         }
 
-        // $this->set("result", htmlspecialchars($result));
-        $this->set("result", h($result));
+        $this->set("result", $result);
     }
 }
 ?>
